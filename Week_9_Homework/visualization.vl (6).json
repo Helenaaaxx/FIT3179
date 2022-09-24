@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Deaths per 100,000 resident population of Australia caused by Ischaemic Heart Disease (2020)",
+  "width": 900,
+  "height": 500,
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/Helenaaaxx/FIT3179/main/Week_9_Homework/ne_10m_admin_1_states_provinces.json",
+    "format": {"type": "topojson", "feature": "My_Australia_States_Map_Final"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Helenaaaxx/FIT3179/main/Week_9_Homework/final_homework_week9_dataset.csv"
+        },
+        "key": "States",
+        "fields": ["Rate"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "#757575", "strokeWidth": 0.5},
+  "encoding": {
+    "color": {
+      "field": "Rate",
+      "type": "quantitative",
+      "scale": {"scheme": "oranges"}
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "States"},
+      {"field": "Rate", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}
