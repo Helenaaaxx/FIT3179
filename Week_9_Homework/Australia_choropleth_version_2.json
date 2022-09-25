@@ -42,7 +42,7 @@
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "States"},
-      {"field": "Rate", "type": "quantitative"}
+      {"field": "Rate", "type": "quantitative", "format": ".1f"}
     ]
   },
   "config": {}
