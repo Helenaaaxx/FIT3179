@@ -1,0 +1,61 @@
+Year,Type,Number of Deaths
+2011,Angina pectoris (I20),31
+2011,Acute myocardial infarction (I21),9819
+2011,Subsequent myocardial infarction (I22),11
+2011,Certain current complications following acute myocardial infarction (I23),0
+2011,Other acute ischaemic heart diseases (I24),234
+2011,Chronic ischaemic heart disease (I25),11431
+2012,Angina pectoris (I20),28
+2012,Acute myocardial infarction (I21),9293
+2012,Subsequent myocardial infarction (I22),3
+2012,Certain current complications following acute myocardial infarction (I23),0
+2012,Other acute ischaemic heart diseases (I24),296
+2012,Chronic ischaemic heart disease (I25),10488
+2013,Angina pectoris (I20),18
+2013,Acute myocardial infarction (I21),4069
+2013,Subsequent myocardial infarction (I22),0
+2013,Certain current complications following acute myocardial infarction (I23),0
+2013,Other acute ischaemic heart diseases (I24),172
+2013,Chronic ischaemic heart disease (I25),4495
+2014,Angina pectoris (I20),32
+2014,Acute myocardial infarction (I21),8632
+2014,Subsequent myocardial infarction (I22),0
+2014,Certain current complications following acute myocardial infarction (I23),0
+2014,Other acute ischaemic heart diseases (I24),339
+2014,Chronic ischaemic heart disease (I25),11196
+2015,Angina pectoris (I20),23
+2015,Acute myocardial infarction (I21),8463
+2015,Subsequent myocardial infarction (I22),0
+2015,Certain current complications following acute myocardial infarction (I23),0
+2015,Other acute ischaemic heart diseases (I24),380
+2015,Chronic ischaemic heart disease (I25),11045
+2016,Angina pectoris (I20),24
+2016,Acute myocardial infarction (I21),8032
+2016,Subsequent myocardial infarction (I22),0
+2016,Certain current complications following acute myocardial infarction (I23),0
+2016,Other acute ischaemic heart diseases (I24),355
+2016,Chronic ischaemic heart disease (I25),10783
+2017,Angina pectoris (I20),25
+2017,Acute myocardial infarction (I21),7847
+2017,Subsequent myocardial infarction (I22),0
+2017,Certain current complications following acute myocardial infarction (I23),0
+2017,Other acute ischaemic heart diseases (I24),373
+2017,Chronic ischaemic heart disease (I25),10500
+2018,Angina pectoris (I20),18
+2018,Acute myocardial infarction (I21),7354
+2018,Subsequent myocardial infarction (I22),0
+2018,Certain current complications following acute myocardial infarction (I23),0
+2018,Other acute ischaemic heart diseases (I24),343
+2018,Chronic ischaemic heart disease (I25),10041
+2019,Angina pectoris (I20),20
+2019,Acute myocardial infarction (I21),7101
+2019,Subsequent myocardial infarction (I22),0
+2019,Certain current complications following acute myocardial infarction (I23),0
+2019,Other acute ischaemic heart diseases (I24),387
+2019,Chronic ischaemic heart disease (I25),10736
+2020,Angina pectoris (I20),31
+2020,Acute myocardial infarction (I21),6519
+2020,Subsequent myocardial infarction (I22),0
+2020,Certain current complications following acute myocardial infarction (I23),0
+2020,Other acute ischaemic heart diseases (I24),375
+2020,Chronic ischaemic heart disease (I25),9662
