@@ -1,0 +1,121 @@
+Year,Malignant Neoplasm of,Number of Deaths
+2011,Oesophagus (C15),1229
+2011,Stomach (C16),1142
+2011,Small Intestine (C17),95
+2011,Colon (C18),2077
+2011,Rectosigmoid Junction (C19),1216
+2011,Rectum (C20),706
+2011,Anus and Anal Canal (C21),88
+2011,Liver and Intrahepatic Bile Ducts (C22),1423
+2011,Gallbladder (C23),152
+2011,Other and Unspecified Parts of Biliary Tract (C24),97
+2011,Pancreas (C25),2416
+2011,Other and Ill-defined Digestive Organs (C26),1264
+2012,Oesophagus (C15),1203
+2012,Stomach (C16),1143
+2012,Small Intestine (C17),127
+2012,Colon (C18),1965
+2012,Rectosigmoid Junction (C19),1328
+2012,Rectum (C20),690
+2012,Anus and Anal Canal (C21),71
+2012,Liver and Intrahepatic Bile Ducts (C22),1490
+2012,Gallbladder (C23),178
+2012,Other and Unspecified Parts of Biliary Tract (C24),76
+2012,Pancreas (C25),2524
+2012,Other and Ill-defined Digestive Organs (C26),1239
+2013,Oesophagus (C15),1245
+2013,Stomach (C16),1227
+2013,Small Intestine (C17),107
+2013,Colon (C18),1946
+2013,Rectosigmoid Junction (C19),1509
+2013,Rectum (C20),708
+2013,Anus and Anal Canal (C21),72
+2013,Liver and Intrahepatic Bile Ducts (C22),1574
+2013,Gallbladder (C23),165
+2013,Other and Unspecified Parts of Biliary Tract (C24),92
+2013,Pancreas (C25),2559
+2013,Other and Ill-defined Digestive Organs (C26),1237
+2014,Oesophagus (C15),1198
+2014,Stomach (C16),1138
+2014,Small Intestine (C17),98
+2014,Colon (C18),1774
+2014,Rectosigmoid Junction (C19),1601
+2014,Rectum (C20),698
+2014,Anus and Anal Canal (C21),98
+2014,Liver and Intrahepatic Bile Ducts (C22),1732
+2014,Gallbladder (C23),155
+2014,Other and Unspecified Parts of Biliary Tract (C24),84
+2014,Pancreas (C25),2547
+2014,Other and Ill-defined Digestive Organs (C26),1224
+2015,Oesophagus (C15),1329
+2015,Stomach (C16),1151
+2015,Small Intestine (C17),101
+2015,Colon (C18),1780
+2015,Rectosigmoid Junction (C19),1860
+2015,Rectum (C20),711
+2015,Anus and Anal Canal (C21),87
+2015,Liver and Intrahepatic Bile Ducts (C22),1820
+2015,Gallbladder (C23),177
+2015,Other and Unspecified Parts of Biliary Tract (C24),113
+2015,Pancreas (C25),2764
+2015,Other and Ill-defined Digestive Organs (C26),1241
+2016,Oesophagus (C15),1338
+2016,Stomach (C16),1087
+2016,Small Intestine (C17),120
+2016,Colon (C18),1754
+2016,Rectosigmoid Junction (C19),1915
+2016,Rectum (C20),661
+2016,Anus and Anal Canal (C21),87
+2016,Liver and Intrahepatic Bile Ducts (C22),1866
+2016,Gallbladder (C23),156
+2016,Other and Unspecified Parts of Biliary Tract (C24),113
+2016,Pancreas (C25),2911
+2016,Other and Ill-defined Digestive Organs (C26),1171
+2017,Oesophagus (C15),1266
+2017,Stomach (C16),1161
+2017,Small Intestine (C17),132
+2017,Colon (C18),1607
+2017,Rectosigmoid Junction (C19),1912
+2017,Rectum (C20),686
+2017,Anus and Anal Canal (C21),98
+2017,Liver and Intrahepatic Bile Ducts (C22),1917
+2017,Gallbladder (C23),171
+2017,Other and Unspecified Parts of Biliary Tract (C24),113
+2017,Pancreas (C25),2999
+2017,Other and Ill-defined Digestive Organs (C26),1188
+2018,Oesophagus (C15),1331
+2018,Stomach (C16),1140
+2018,Small Intestine (C17),132
+2018,Colon (C18),1514
+2018,Rectosigmoid Junction (C19),2064
+2018,Rectum (C20),714
+2018,Anus and Anal Canal (C21),84
+2018,Liver and Intrahepatic Bile Ducts (C22),2105
+2018,Gallbladder (C23),183
+2018,Other and Unspecified Parts of Biliary Tract (C24),107
+2018,Pancreas (C25),3078
+2018,Other and Ill-defined Digestive Organs (C26),1199
+2019,Oesophagus (C15),1402
+2019,Stomach (C16),1185
+2019,Small Intestine (C17),151
+2019,Colon (C18),1541
+2019,Rectosigmoid Junction (C19),2035
+2019,Rectum (C20),651
+2019,Anus and Anal Canal (C21),112
+2019,Liver and Intrahepatic Bile Ducts (C22),2204
+2019,Gallbladder (C23),166
+2019,Other and Unspecified Parts of Biliary Tract (C24),131
+2019,Pancreas (C25),3207
+2019,Other and Ill-defined Digestive Organs (C26),1213
+2020,Oesophagus (C15),1341
+2020,Stomach (C16),1182
+2020,Small Intestine (C17),143
+2020,Colon (C18),1462
+2020,Rectosigmoid Junction (C19),2123
+2020,Rectum (C20),692
+2020,Anus and Anal Canal (C21),129
+2020,Liver and Intrahepatic Bile Ducts (C22),2192
+2020,Gallbladder (C23),176
+2020,Other and Unspecified Parts of Biliary Tract (C24),124
+2020,Pancreas (C25),3244
+2020,Other and Ill-defined Digestive Organs (C26),1235
