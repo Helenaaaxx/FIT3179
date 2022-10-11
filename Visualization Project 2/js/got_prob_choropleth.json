@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
-  "height": 500,
+  "width": 1000,
+  "height": 600,
+  "background": "#FAF8F5",
   "data": {
     "url": "https://raw.githubusercontent.com/Helenaaaxx/FIT3179/main/Visualization%20Project%202/Dataset/choropleth_map_suicide_dataset.csv"
   },
@@ -43,10 +44,15 @@
     {"filter": "datum.Year == Year"},
     {"filter": "datum.Gender == Gender"}
   ],
-  "mark": {"type": "geoshape", "stroke": "white"},
+  "mark": {"type": "geoshape", "stroke": "white", "cursor": "pointer"},
   "encoding": {
     "shape": {"field": "geo", "type": "geojson"},
-    "color": {"field": "Rate", "type": "quantitative"}
-  },
-  "config": {}
+    "color": {"field": "Rate", "type": "quantitative"},
+    "tooltip": [
+      {"field": "properties.STE_NAME21", "type": "nominal", "title": "States"},
+      {"field": "Rate", "type": "quantitative", "format": ".1f"},
+      {"field": "Gender", "type": "nominal"},
+      {"field": "Year", "type": "ordinal"}
+    ]
+  }
 }
