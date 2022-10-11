@@ -38,7 +38,7 @@
           "url": "https://raw.githubusercontent.com/Helenaaaxx/FIT3179/main/Visualization%20Project%202/Dataset/choropleth_map_suicide_dataset.csv"
         },
         "key": "States",
-        "fields": ["Rate"]
+        "fields": ["Rate", "Gender", "Year"]
       }
     },
     {"filter": "datum.Gender == Gender"},
