@@ -64,7 +64,9 @@
             "type": "nominal",
             "title": "States"
           },
-          {"field": "Rate", "type": "quantitative", "format": ".1f"}
+          {"field": "Rate", "type": "quantitative", "format": ".1f"},
+          {"field": "Gender", "type": "nominal"},
+          {"field": "Year", "type": "ordinal"}
         ]
       }
     },
