@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Helenaaaxx/FIT3179/main/Visualization%20Project%202/Dataset/choropleth_map_suicide_dataset.csv"
+  },
+  "projection": {"type": "equalEarth"},
+  "params": [
+    {
+      "name": "Year",
+      "value": 2011,
+      "bind": {
+        "input": "range",
+        "min": 2011,
+        "max": 2020,
+        "step": 1,
+        "name": "Year Selection: "
+      }
+    },
+    {
+      "name": "Gender",
+      "value": "Overall",
+      "bind": {
+        "input": "select",
+        "options": ["Overall", "Male", "Female"],
+        "name": "Gender Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "lookup": "States",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Helenaaaxx/FIT3179/main/Visualization%20Project%202/map%20data/STE_2021_AUST_GDA2020%20(1).json",
+          "format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}
+        },
+        "key": "properties.STE_NAME21"
+      },
+      "as": "geo"
+    },
+    {"filter": "datum.Year == Year"},
+    {"filter": "datum.Gender == Gender"}
+  ],
+  "mark": {"type": "geoshape", "stroke": "white"},
+  "encoding": {
+    "shape": {"field": "geo", "type": "geojson"},
+    "color": {"field": "Rate", "type": "quantitative"}
+  },
+  "config": {}
+}
