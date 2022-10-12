@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Deaths caused by Ischaemic Heart Disease in Australia (2020)",
+  "width": 800,
+  "height": 400,
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/Helenaaaxx/FIT3179/main/Week_9_Homework/ne_10m_admin_1_states_provinces.json",
+    "format": {"type": "topojson", "feature": "My_Australia_States_Map_Final"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Helenaaaxx/FIT3179/main/Week_9_Homework/final_homework_week9_dataset.csv"
+        },
+        "key": "States",
+        "fields": ["Rate"]
+      }
+    },
+    {"calculate": "datum.Rate + 0.1", "as": "Age Standardized Death Rate"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Age Standardized Death Rate",
+      "type": "quantitative",
+      "scale": {"type": "log"}
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "States"},
+      {"field": "Age Standardized Death Rate", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}
